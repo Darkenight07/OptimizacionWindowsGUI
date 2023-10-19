@@ -35,6 +35,27 @@ public class OptimizacionWindowsGUI {
         botonDesfragmentarUnidades.setBounds(10, 200, 178, 30);
         frame.add(botonDesfragmentarUnidades);
 
+        // Desactivar Bluetooth --
+        JButton botonDesactivarBluetooth = new JButton("Desactivar Bluetooth");
+        botonDesactivarBluetooth.setBounds(10, 240, 178, 30);
+        frame.add(botonDesactivarBluetooth);
+
+        // Desactivar SysMain o Superfetch --
+        JButton botonDesactivarSysMain = new JButton("Desactivar Superfetch");
+        botonDesactivarSysMain.setBounds(10, 280, 178, 30);
+        frame.add(botonDesactivarSysMain);
+
+        // Desactivar Windows Search --
+        JButton botonDesactivarWindowsSearch = new JButton("Desactivar Windows Search");
+        botonDesactivarWindowsSearch.setBounds(10, 320, 178, 30);
+        frame.add(botonDesactivarWindowsSearch);
+
+
+        // Desactivar Windows Update --
+        JButton botonDesactivarWindowsUpdate = new JButton("Desactivar Windows Update");
+        botonDesactivarWindowsUpdate.setBounds(10, 360, 178, 30);
+        frame.add(botonDesactivarWindowsUpdate);
+
         botonEliminarCache.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -65,8 +86,8 @@ public class OptimizacionWindowsGUI {
             @Override
             public void actionPerformed(ActionEvent e) {
                 // Creamos variables para la ruta de OneDrive
-                String x86 = "%SYSTEMROOT%\\System32\\OneDriveSetup.exe";
-                String x64 = "%SYSTEMROOT%\\SysWOW64\\OneDriveSetup.exe";
+                final String x86 = "%SYSTEMROOT%\\System32\\OneDriveSetup.exe";
+                final String x64 = "%SYSTEMROOT%\\SysWOW64\\OneDriveSetup.exe";
                 // Creamos los primeros procesos para cerrar el proceso OneDrive.exe
                 ProcessBuilder desinstalarOneDrivePaso1 = new ProcessBuilder("cmd.exe", "/c", "taskkill /f /im OneDrive.exe > NUL 2>&1");
                 ProcessBuilder desinstalarOneDrivePaso2 = new ProcessBuilder("cmd.exe", "/c", "ping 127.0.0.1 -n 5 > NUL 2>&1");
@@ -132,7 +153,6 @@ public class OptimizacionWindowsGUI {
                 }
             }
         });
-
         botonDesfragmentarUnidades.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -155,7 +175,10 @@ public class OptimizacionWindowsGUI {
                 }
             }
         });
+
         // Hacemos visible la ventana siempre
         frame.setVisible(true);
     }
+
 }
+
