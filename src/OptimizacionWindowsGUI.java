@@ -65,8 +65,8 @@ public class OptimizacionWindowsGUI {
             @Override
             public void actionPerformed(ActionEvent e) {
                 // Creamos variables para la ruta de OneDrive
-                String x86 = "%SYSTEMROOT%\\System32\\OneDriveSetup.exe";
-                String x64 = "%SYSTEMROOT%\\SysWOW64\\OneDriveSetup.exe";
+                final String x86 = "%SYSTEMROOT%\\System32\\OneDriveSetup.exe";
+                final String x64 = "%SYSTEMROOT%\\SysWOW64\\OneDriveSetup.exe";
                 // Creamos los primeros procesos para cerrar el proceso OneDrive.exe
                 ProcessBuilder desinstalarOneDrivePaso1 = new ProcessBuilder("cmd.exe", "/c", "taskkill /f /im OneDrive.exe > NUL 2>&1");
                 ProcessBuilder desinstalarOneDrivePaso2 = new ProcessBuilder("cmd.exe", "/c", "ping 127.0.0.1 -n 5 > NUL 2>&1");
