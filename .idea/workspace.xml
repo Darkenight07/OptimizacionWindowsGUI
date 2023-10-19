@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eed625b4-3057-4417-ad8e-cfbfd186a96b" name="Changes" comment="Agregado GUI, sin terminar">
+    <list default="true" id="eed625b4-3057-4417-ad8e-cfbfd186a96b" name="Changes" comment="Agregado GUI, sin terminar, falta desfragmentacion de unidades">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/OptimizacionWindowsGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OptimizacionWindowsGUI.java" afterDir="false" />
     </list>
@@ -59,12 +59,21 @@
       <option name="project" value="LOCAL" />
       <updated>1697712523323</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Agregado GUI, sin terminar, falta desfragmentacion de unidades">
+      <option name="closed" value="true" />
+      <created>1697714739958</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1697714739958</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Sin terminar" />
     <MESSAGE value="Agregado GUI, sin terminar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Agregado GUI, sin terminar" />
+    <MESSAGE value="Agregado GUI, sin terminar, falta desfragmentacion de unidades" />
+    <option name="LAST_COMMIT_MESSAGE" value="Agregado GUI, sin terminar, falta desfragmentacion de unidades" />
   </component>
 </project>
