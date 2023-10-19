@@ -1,7 +1,6 @@
 import java.io.IOException;
 import java.awt.*;
 import javax.swing.*;
-import javax.swing.plaf.ProgressBarUI;
 import java.awt.event.*;
 public class OptimizacionWindowsGUI {
     public static void main(String[] args) throws IOException, InterruptedException {
@@ -21,7 +20,7 @@ public class OptimizacionWindowsGUI {
         textoSecundario.setBounds(10, 80, 239, 30);
         frame.add(textoSecundario);
 
-        // Boton para eleminar cache
+        // Boton para eliminar carpetas temporales/archivos temporales
         JButton botonEliminarCache = new JButton("Eliminar cache");
         botonEliminarCache.setBounds(10, 120, 178, 30);
         frame.add(botonEliminarCache);
@@ -156,6 +155,7 @@ public class OptimizacionWindowsGUI {
                 }
             }
         });
+        // Hacemos visible la ventana siempre
         frame.setVisible(true);
     }
 }
