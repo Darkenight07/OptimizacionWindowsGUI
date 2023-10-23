@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eed625b4-3057-4417-ad8e-cfbfd186a96b" name="Changes" comment="Faltan por funcionar los 4 ultimos botones">
-      <change afterPath="$PROJECT_DIR$/src/OpcionesOptimizacion/Servicios/DesactivarBluetooth.java" afterDir="false" />
+    <list default="true" id="eed625b4-3057-4417-ad8e-cfbfd186a96b" name="Changes" comment="Changes">
+      <change afterPath="$PROJECT_DIR$/src/OpcionesOptimizacion/General/DesinstalarOneDrive.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/OptimizacionWindowsGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OptimizacionWindowsGUI.java" afterDir="false" />
     </list>
@@ -124,7 +124,31 @@
       <option name="project" value="LOCAL" />
       <updated>1697750273150</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Faltan por funcionar los 3 ultimos botones. Desactivador de Bluetooth funcionando casi.">
+      <option name="closed" value="true" />
+      <created>1698101206418</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1698101206418</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Desactivador de Bluetooth, funcionado casi">
+      <option name="closed" value="true" />
+      <created>1698101293644</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1698101293644</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1698101313183</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1698101313183</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -145,6 +169,9 @@
     <MESSAGE value="Falta barra de progreso en desfragmentacion de unidades" />
     <MESSAGE value="Faltan por funcionar los 3 ultimos botones" />
     <MESSAGE value="Faltan por funcionar los 4 ultimos botones" />
-    <option name="LAST_COMMIT_MESSAGE" value="Faltan por funcionar los 4 ultimos botones" />
+    <MESSAGE value="Faltan por funcionar los 3 ultimos botones. Desactivador de Bluetooth funcionando casi." />
+    <MESSAGE value="Desactivador de Bluetooth, funcionado casi" />
+    <MESSAGE value="Changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes" />
   </component>
 </project>
