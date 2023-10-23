@@ -7,3 +7,11 @@
   <li>Desinstalador de OneDrive</li>
   <li>Desfragmentador de unidades</li>
 </ul>
+ 
+<h3>Opciones de Optimización futuros</h3>
+<ul>
+  <li>(PRONTO) Desactivador de Bluetooth</li>
+  <li>(PRONTO) Desactivador de SysMain o Superfetch</li>
+  <li>(PRONTO) Desactivador de Windows Search </li>
+  <li>(PRONTO) Desactivador de Windows Update </li>
+</ul> 
