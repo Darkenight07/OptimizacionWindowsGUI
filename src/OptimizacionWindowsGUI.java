@@ -21,9 +21,10 @@ public class OptimizacionWindowsGUI {
         frame.add(textoSecundario);
 
         // Boton para eliminar carpetas temporales/archivos temporales
-        JButton botonEliminarCache = new JButton("Eliminar cache");
-        botonEliminarCache.setBounds(10, 120, 178, 30);
-        frame.add(botonEliminarCache);
+        JButton botonEliminarArchivosTemporales = new JButton("Eliminar cache");
+        botonEliminarArchivosTemporales.setBounds(10, 120, 178, 30);
+        frame.add(botonEliminarArchivosTemporales);
+
 
         // Boton para desinstalar OneDrive
         JButton botonDesinstalarOneDrive = new JButton("Desinstalar OneDrive");
@@ -36,9 +37,8 @@ public class OptimizacionWindowsGUI {
         frame.add(botonDesfragmentarUnidades);
 
         // Desactivar Bluetooth --
-        JButton botonDesactivarBluetooth = new JButton("Desactivar Bluetooth");
-        botonDesactivarBluetooth.setBounds(10, 240, 178, 30);
-        frame.add(botonDesactivarBluetooth);
+        OpcionesOptimizacion.Servicios.DesactivarBluetooth botonDesactivarBluetooth = new OpcionesOptimizacion.Servicios.DesactivarBluetooth();
+        botonDesactivarBluetooth.desactivarBluetooth(frame);
 
         // Desactivar SysMain o Superfetch --
         JButton botonDesactivarSysMain = new JButton("Desactivar Superfetch");
@@ -50,13 +50,13 @@ public class OptimizacionWindowsGUI {
         botonDesactivarWindowsSearch.setBounds(10, 320, 178, 30);
         frame.add(botonDesactivarWindowsSearch);
 
-
         // Desactivar Windows Update --
         JButton botonDesactivarWindowsUpdate = new JButton("Desactivar Windows Update");
         botonDesactivarWindowsUpdate.setBounds(10, 360, 178, 30);
         frame.add(botonDesactivarWindowsUpdate);
 
-        botonEliminarCache.addActionListener(new ActionListener() {
+
+        botonEliminarArchivosTemporales.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 // Creamos los procesos para eliminar la cache
@@ -81,6 +81,7 @@ public class OptimizacionWindowsGUI {
                 }
             }
         });
+
 
         botonDesinstalarOneDrive.addActionListener(new ActionListener() {
             @Override
