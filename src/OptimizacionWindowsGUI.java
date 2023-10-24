@@ -29,21 +29,17 @@ public class OptimizacionWindowsGUI {
         frame.add(botonEliminarArchivosTemporales);
 
         // Boton para desinstalar OneDrive
-        OpcionesOptimizacion.General.DesinstalarOneDrive botonDesinstalarOneDrive = new OpcionesOptimizacion.General.DesinstalarOneDrive();
-        botonDesinstalarOneDrive.DesactivarOneDrive(frame);
+        DesinstalarOneDrive.DesinstalarOneDrive(frame);
 
         // Boton para desfragmentar unidades
-        OpcionesOptimizacion.General.DesfragmentarUnidades botonDesfragmentarUnidades = new OpcionesOptimizacion.General.DesfragmentarUnidades();
-        botonDesfragmentarUnidades.DesfragmentarUnidades(frame);
+        DesfragmentarUnidades.DesfragmentarUnidades(frame);
 
         // Desactivar Bluetooth --
-        OpcionesOptimizacion.Servicios.DesactivarBluetooth botonDesactivarBluetooth = new OpcionesOptimizacion.Servicios.DesactivarBluetooth();
-        botonDesactivarBluetooth.desactivarBluetooth(frame);
+        DesactivarBluetooth.DesactivarBluetooth(frame);
 
         // Desactivar SysMain o Superfetch --
-        OpcionesOptimizacion.Servicios.DesactivarSysMain botonDesactivarSysMain = new OpcionesOptimizacion.Servicios.DesactivarSysMain();
-        botonDesactivarSysMain.DesactivarSysMain(frame);
-
+        DesactivarSysMain.DesactivarSysMain(frame);
+        
         // Desactivar Windows Search --
         JButton botonDesactivarWindowsSearch = new JButton("Desactivar Windows Search");
         botonDesactivarWindowsSearch.setBounds(10, 320, 178, 30);
