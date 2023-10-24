@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eed625b4-3057-4417-ad8e-cfbfd186a96b" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/src/OpcionesOptimizacion/General/DesfragmentarUnidades.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OptimizacionWindowsGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OptimizacionWindowsGUI.java" afterDir="false" />
-    </list>
+    <list default="true" id="eed625b4-3057-4417-ad8e-cfbfd186a96b" name="Changes" comment="Changes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -173,7 +169,23 @@
       <option name="project" value="LOCAL" />
       <updated>1698149061449</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Creado archivo java para ejecutar el Desfragmentador de unidades">
+      <option name="closed" value="true" />
+      <created>1698149761507</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1698149761507</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1698149777104</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1698149777104</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -197,6 +209,7 @@
     <MESSAGE value="Faltan por funcionar los 3 ultimos botones. Desactivador de Bluetooth funcionando casi." />
     <MESSAGE value="Desactivador de Bluetooth, funcionado casi" />
     <MESSAGE value="Boton de desinstalar OneDrive funcionando en una clase diferente." />
+    <MESSAGE value="Creado archivo java para ejecutar el Desfragmentador de unidades" />
     <MESSAGE value="Changes" />
     <option name="LAST_COMMIT_MESSAGE" value="Changes" />
   </component>
