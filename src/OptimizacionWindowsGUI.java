@@ -41,7 +41,6 @@ public class OptimizacionWindowsGUI {
         OpcionesOptimizacion.Servicios.DesactivarSysMain botonDesactivarSysMain = new OpcionesOptimizacion.Servicios.DesactivarSysMain();
         botonDesactivarSysMain.DesactivarSysMain(frame);
 
-
         // Desactivar Windows Search --
         JButton botonDesactivarWindowsSearch = new JButton("Desactivar Windows Search");
         botonDesactivarWindowsSearch.setBounds(10, 320, 178, 30);
