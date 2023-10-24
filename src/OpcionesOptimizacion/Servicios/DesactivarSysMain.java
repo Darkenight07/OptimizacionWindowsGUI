@@ -10,9 +10,9 @@ public class DesactivarSysMain {
         botonDesactivarSysMain.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                // Antes, hay que crear un boton de advertencia de que puede que el sistema vaya mas lento o no
 
                 int opcion = JOptionPane.showOptionDialog(null, "Advertencia: Puede que el sistema vaya mas lento o mejor", "Advertencia", JOptionPane.YES_NO_OPTION, JOptionPane.WARNING_MESSAGE, null, new Object[] { "Aceptar", "Cancelar" }, "Aceptar");
+
                 if (opcion == JOptionPane.YES_OPTION) {
 
                     String usuario = System.getenv("USERNAME"); // Obtenemos el nombre de usuario
