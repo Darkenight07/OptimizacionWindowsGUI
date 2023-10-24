@@ -11,7 +11,7 @@
 <h3>Opciones de Optimización futuros</h3>
 <ul>
   <li>(Falta probar) Desactivador de Bluetooth</li> 
-  <li>(No del todo funcionado) Desactivador de SysMain o Superfetch</li>
+  <li>(No del todo funcionando) Desactivador de SysMain o Superfetch</li>
   <li>(PRONTO) Desactivador de Windows Search </li>
   <li>(PRONTO) Desactivador de Windows Update </li>
 </ul> 
