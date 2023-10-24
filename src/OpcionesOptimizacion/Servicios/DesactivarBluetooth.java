@@ -4,7 +4,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class DesactivarBluetooth {
-    public void desactivarBluetooth(JFrame frame) {
+    public static void DesactivarBluetooth(JFrame frame) {
         JButton botonDesactivarBluetooth = new JButton("Desactivar Bluetooth");
         botonDesactivarBluetooth.setBounds(10, 240, 178, 30);
         frame.add(botonDesactivarBluetooth);

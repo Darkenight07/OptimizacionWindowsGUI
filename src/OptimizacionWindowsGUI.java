@@ -2,7 +2,6 @@ import java.io.IOException;
 import java.awt.*;
 import javax.swing.*;
 import java.awt.event.*;
-// Importamos las carpetas de donde estan los otros archivos .java
 import OpcionesOptimizacion.General.*;
 import OpcionesOptimizacion.Servicios.*;
 public class OptimizacionWindowsGUI {
@@ -29,17 +28,17 @@ public class OptimizacionWindowsGUI {
         frame.add(botonEliminarArchivosTemporales);
 
         // Boton para desinstalar OneDrive
-        DesinstalarOneDrive.DesinstalarOneDrive(frame);
+        DesinstalarOneDrive.DesactivarOneDrive(frame);
 
         // Boton para desfragmentar unidades
         DesfragmentarUnidades.DesfragmentarUnidades(frame);
 
-        // Desactivar Bluetooth --
+        // Desactivar Bluetooth
         DesactivarBluetooth.DesactivarBluetooth(frame);
 
-        // Desactivar SysMain o Superfetch --
+        // Desactivar SysMain o Superfetch
         DesactivarSysMain.DesactivarSysMain(frame);
-        
+
         // Desactivar Windows Search --
         JButton botonDesactivarWindowsSearch = new JButton("Desactivar Windows Search");
         botonDesactivarWindowsSearch.setBounds(10, 320, 178, 30);
