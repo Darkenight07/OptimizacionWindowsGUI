@@ -23,9 +23,7 @@ public class OptimizacionWindowsGUI {
         frame.add(textoSecundario);
 
         // Boton para eliminar carpetas temporales/archivos temporales
-        JButton botonEliminarArchivosTemporales = new JButton("Eliminar cache");
-        botonEliminarArchivosTemporales.setBounds(10, 120, 178, 30);
-        frame.add(botonEliminarArchivosTemporales);
+        EliminarArchivosTemporales.EliminarArchivosTemporales(frame);
 
         // Boton para desinstalar OneDrive
         DesinstalarOneDrive.DesactivarOneDrive(frame);
@@ -48,33 +46,6 @@ public class OptimizacionWindowsGUI {
         JButton botonDesactivarWindowsUpdate = new JButton("Desactivar Windows Update");
         botonDesactivarWindowsUpdate.setBounds(10, 360, 178, 30);
         frame.add(botonDesactivarWindowsUpdate);
-
-
-        botonEliminarArchivosTemporales.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                // Creamos los procesos para eliminar la cache
-                ProcessBuilder eliminarCachePaso1 = new ProcessBuilder("cmd.exe", "/c", "rmdir /s /q %TEMP%");
-                ProcessBuilder eliminarCachePaso2 = new ProcessBuilder("cmd.exe", "/c", "rmdir /s /q %HOMEDRIVE%\\Windows\\Temp\\");
-                ProcessBuilder eliminarCachePaso3 = new ProcessBuilder("cmd.exe", "/c", "mkdir %TEMP%");
-                ProcessBuilder eliminarCachePaso4 = new ProcessBuilder("cmd.exe", "/c", "mkdir %HOMEDRIVE%\\Windows\\Temp\\");
-                try {
-                    // Ejecutamos los procesos
-                    Process eliminarCachePaso1Process = eliminarCachePaso1.start();
-                    eliminarCachePaso1Process.waitFor();
-                    Process eliminarCachePaso2Process = eliminarCachePaso2.start();
-                    eliminarCachePaso2Process.waitFor();
-                    Process eliminarCachePaso3Process = eliminarCachePaso3.start();
-                    eliminarCachePaso3Process.waitFor();
-                    Process eliminarCachePaso4Process = eliminarCachePaso4.start();
-                    eliminarCachePaso4Process.waitFor();
-                    JOptionPane.showMessageDialog(null, "Cache eliminada con exito");
-                } catch (IOException | InterruptedException ioException) {
-                    ioException.printStackTrace();
-                    JOptionPane.showMessageDialog(null, "Error al eliminar la cache");
-                }
-            }
-        });
 
         // Hacemos visible la ventana siempre
         frame.setVisible(true);
