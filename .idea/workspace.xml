@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eed625b4-3057-4417-ad8e-cfbfd186a96b" name="Changes" comment="Cambios">
-      <change afterPath="$PROJECT_DIR$/src/OpcionesOptimizacion/General/EliminarArchivosTemporales.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OptimizacionWindowsGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OptimizacionWindowsGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OpcionesOptimizacion/General/EliminarArchivosTemporales.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OpcionesOptimizacion/General/EliminarArchivosTemporales.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -278,7 +277,23 @@
       <option name="project" value="LOCAL" />
       <updated>1698180008545</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Traslado de la clase principal del boton de eliminar archivos temporales a otra clase.">
+      <option name="closed" value="true" />
+      <created>1698180264795</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1698180264795</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Cambios">
+      <option name="closed" value="true" />
+      <created>1698180281936</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1698180281936</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -309,6 +324,7 @@
     <MESSAGE value="Opcion de desactivar SysMain no funiciona todavia correctamente" />
     <MESSAGE value="No del todo funcionando" />
     <MESSAGE value="Mejoras, mas eficiente" />
+    <MESSAGE value="Traslado de la clase principal del boton de eliminar archivos temporales a otra clase." />
     <MESSAGE value="Cambios" />
     <option name="LAST_COMMIT_MESSAGE" value="Cambios" />
   </component>

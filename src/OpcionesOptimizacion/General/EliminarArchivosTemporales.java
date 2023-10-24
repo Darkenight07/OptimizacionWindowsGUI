@@ -1,12 +1,11 @@
 package OpcionesOptimizacion.General;
 import java.io.IOException;
-import java.awt.*;
 import javax.swing.*;
 import java.awt.event.*;
 
 public class EliminarArchivosTemporales {
     public static void EliminarArchivosTemporales(JFrame frame) {
-        JButton botonEliminarArchivosTemporales = new JButton("Eliminar cache");
+        JButton botonEliminarArchivosTemporales = new JButton("Eliminar archivos/carpetas temporales");
         botonEliminarArchivosTemporales.setBounds(10, 120, 178, 30);
         frame.add(botonEliminarArchivosTemporales);
 
@@ -28,10 +27,10 @@ public class EliminarArchivosTemporales {
                     eliminarCachePaso3Process.waitFor();
                     Process eliminarCachePaso4Process = eliminarCachePaso4.start();
                     eliminarCachePaso4Process.waitFor();
-                    JOptionPane.showMessageDialog(null, "Cache eliminada con exito");
+                    JOptionPane.showMessageDialog(null, "Archivos/carpetas temporales eliminados correctamente");
                 } catch (IOException | InterruptedException ioException) {
                     ioException.printStackTrace();
-                    JOptionPane.showMessageDialog(null, "Error al eliminar la cache");
+                    JOptionPane.showMessageDialog(null, "Error al eliminar archivos/carpetas temporales");
                 }
             }
         });
