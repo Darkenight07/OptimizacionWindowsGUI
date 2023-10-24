@@ -35,7 +35,6 @@ public class DesactivarSysMain {
                     } catch (IOException | InterruptedException ex) {
                         ex.printStackTrace();
                         JOptionPane.showMessageDialog(null, "Error al desactivar Superfetch/SysMain");
-
                     }
                 } else if (opcion == JOptionPane.NO_OPTION) {
 
