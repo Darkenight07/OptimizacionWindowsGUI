@@ -2,6 +2,9 @@ import java.io.IOException;
 import java.awt.*;
 import javax.swing.*;
 import java.awt.event.*;
+// Importamos las carpetas de donde estan los otros archivos .java
+import OpcionesOptimizacion.General;
+import OpcionesOptimizacion.Servicios;
 public class OptimizacionWindowsGUI {
     public static void main(String[] args) throws IOException, InterruptedException {
 
