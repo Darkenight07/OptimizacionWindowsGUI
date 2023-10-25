@@ -12,7 +12,8 @@ public class DesactivarBluetooth {
             @Override
             public void actionPerformed(ActionEvent e) {
                 try {
-                    String comando = "powershell.exe -Command \"& {Disable-NetAdapter -Name 'Bluetooth'}\"";
+                    // Falta saber si esta desactivado o activado
+                    String comando = "powershell.exe -Command \"& {Disable-NetAdapter -Name 'Bluetooth'}\""; // Activate para activar
                     ProcessBuilder desactivarBluetooth = new ProcessBuilder("cmd.exe", "/c", comando);
                     desactivarBluetooth.redirectErrorStream(true);
                     Process process = desactivarBluetooth.start();
@@ -20,12 +21,15 @@ public class DesactivarBluetooth {
 
                     if (exitCode == 0) {
                         System.out.println("Bluetooth desactivado exitosamente.");
+                        JOptionPane.showMessageDialog(null, "Bluetooth desactivado exitosamente.", "Informacion", JOptionPane.INFORMATION_MESSAGE);
                     } else {
                         System.out.println("Error al desactivar Bluetooth. Código de salida: " + exitCode);
+                        JOptionPane.showMessageDialog(null, "Error al desactivar Bluetooth", "Error", JOptionPane.ERROR_MESSAGE);
                     }
 
                 } catch (Exception ex) {
                     ex.printStackTrace();
+                    JOptionPane.showMessageDialog(null, "Error", "Error", JOptionPane.ERROR_MESSAGE);
                 }
             }
         });
