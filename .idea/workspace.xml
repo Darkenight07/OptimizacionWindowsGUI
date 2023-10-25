@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eed625b4-3057-4417-ad8e-cfbfd186a96b" name="Changes" comment="Cambios">
+    <list default="true" id="eed625b4-3057-4417-ad8e-cfbfd186a96b" name="Changes" comment="Funcionando, falta hacer una comprobacion para ver si esta en ejecuccion">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/OpcionesOptimizacion/Servicios/DesactivarSysMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OpcionesOptimizacion/Servicios/DesactivarSysMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OpcionesOptimizacion/Servicios/DesactivarWindowsSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OpcionesOptimizacion/Servicios/DesactivarWindowsSearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/OpcionesOptimizacion/Servicios/DesactivarWindowsUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OpcionesOptimizacion/Servicios/DesactivarWindowsUpdate.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -343,7 +342,23 @@
       <option name="project" value="LOCAL" />
       <updated>1698270276884</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Funcionando, falta hacer una comprobacion para ver si esta en ejecuccion">
+      <option name="closed" value="true" />
+      <created>1698270884683</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1698270884683</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Cambios">
+      <option name="closed" value="true" />
+      <created>1698270901747</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1698270901747</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -375,10 +390,10 @@
     <MESSAGE value="No del todo funcionando" />
     <MESSAGE value="Mejoras, mas eficiente" />
     <MESSAGE value="Traslado de la clase principal del boton de eliminar archivos temporales a otra clase." />
-    <MESSAGE value="Funcionando, falta hacer una comprobacion para ver si esta en ejecuccion" />
     <MESSAGE value="Hay que probar, falta hacer una comprobacion para ver si esta en ejecuccion" />
     <MESSAGE value="Cambios" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cambios" />
+    <MESSAGE value="Funcionando, falta hacer una comprobacion para ver si esta en ejecuccion" />
+    <option name="LAST_COMMIT_MESSAGE" value="Funcionando, falta hacer una comprobacion para ver si esta en ejecuccion" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
