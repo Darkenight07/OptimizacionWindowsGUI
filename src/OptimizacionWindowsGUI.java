@@ -22,34 +22,35 @@ public class OptimizacionWindowsGUI {
         textoSecundario.setBounds(10, 80, 239, 30);
         frame.add(textoSecundario);
 
-        // Boton para eliminar carpetas temporales/archivos temporales
+        // Optimizacion General
+
+        // Archivo java/clase para eliminar archivos/carpetas temporales
         EliminarArchivosTemporales.EliminarArchivosTemporales(frame);
 
-        // Boton para desinstalar OneDrive
+        // Archivo java/clase para desinstalar OneDrive
         DesinstalarOneDrive.DesactivarOneDrive(frame);
 
-        // Boton para desfragmentar unidades
+        // Archivo java/clase para desfragmentar unidades
         DesfragmentarUnidades.DesfragmentarUnidades(frame);
+        
+        
+        // SERVICIOS
+        
 
-        // Desactivar Bluetooth
+        // Archivo java/clase para desactivar Bluetooth
         DesactivarBluetooth.DesactivarBluetooth(frame);
 
-        // Desactivar SysMain o Superfetch
+        // Archivo java/clase para desactivar SysMain o Superfetch
         DesactivarSysMain.DesactivarSysMain(frame);
 
-        // Desactivar Windows Search --
-        JButton botonDesactivarWindowsSearch = new JButton("Desactivar Windows Search");
-        botonDesactivarWindowsSearch.setBounds(10, 320, 178, 30);
-        frame.add(botonDesactivarWindowsSearch);
+        // Archivo java/clase para desactivar Windows Search --
+        DesactivarWindowsSearch.DesactivarWindowsSearch(frame);
 
-        // Desactivar Windows Update --
-        JButton botonDesactivarWindowsUpdate = new JButton("Desactivar Windows Update");
-        botonDesactivarWindowsUpdate.setBounds(10, 360, 178, 30);
-        frame.add(botonDesactivarWindowsUpdate);
+        // Archivo java/clase pra desactivar Windows Update --
+        DesactivarWindowsUpdate.DesactivarWindowsUpdate(frame);
 
         // Hacemos visible la ventana siempre
         frame.setVisible(true);
     }
 
 }
-
