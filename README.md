@@ -12,6 +12,6 @@
 <ul>
   <li>(Falta probar) Desactivador de Bluetooth</li> 
   <li>(No del todo funcionando) Desactivador de SysMain o Superfetch</li>
-  <li>(PRONTO) Desactivador de Windows Search </li>
+  <li>(Falta probar) Desactivador de Windows Search </li>
   <li>(PRONTO) Desactivador de Windows Update </li>
 </ul> 
