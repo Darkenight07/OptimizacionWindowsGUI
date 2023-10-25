@@ -16,11 +16,15 @@ public class DesactivarSysMain {
 
                 if (opcion == JOptionPane.YES_OPTION) {
 
-                    String usuario = System.getenv("USERNAME"); // Obtenemos el nombre de usuario
+                    String[] comandos = {
+                            "cmd.exe",
+                            "/C",
+                            "sc stop sysmain && sc config sysmain start=disabled"
+                    };
 
                     // Creamos los procesos para desactivar Superfetch/SysMain
-                    String comando = "cmd.exe /c runas /user:" + usuario + " \"sc stop sysmain && sc config sysmain start=disabled\""; // Auto para que se inicie automaticamente
-                    ProcessBuilder desactivarSysMainPaso1 = new ProcessBuilder("cmd.exe", "/c", comando);
+
+                    ProcessBuilder desactivarSysMainPaso1 = new ProcessBuilder(comandos);
 
                     try {
                         Process desactivarSysMainPaso1Process = desactivarSysMainPaso1.start();
@@ -28,7 +32,7 @@ public class DesactivarSysMain {
                         int exitCode = desactivarSysMainPaso1Process.waitFor();
 
                         if (exitCode == 0) {
-                            JOptionPane.showMessageDialog(null, "Superfetch/SysMain desactivado correctamente");
+                            JOptionPane.showMessageDialog(null, "Superfetch/SysMain desactivado correctamente", "Informacion", JOptionPane.INFORMATION_MESSAGE);
                         } else {
                             System.out.println(exitCode);
                             JOptionPane.showMessageDialog(null, "Error al desactivar Superfetch/SysMain", "Error", JOptionPane.ERROR_MESSAGE);
