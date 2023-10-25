@@ -19,7 +19,7 @@ public class DesactivarSysMain {
                     String[] comandos = {
                             "cmd.exe",
                             "/C",
-                            "sc stop sysmain && sc config sysmain start=disabled"
+                            "sc stop sysmain && sc config sysmain start=disabled" // auto para activar
                     };
 
                     // Creamos los procesos para desactivar Superfetch/SysMain

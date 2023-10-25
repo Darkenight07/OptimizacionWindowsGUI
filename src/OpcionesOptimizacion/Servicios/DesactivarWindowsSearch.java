@@ -14,26 +14,23 @@ public class DesactivarWindowsSearch {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				// Falta saber si esta desactivado o activado
+
+				String[] comandos = {
+						"cmd.exe",
+						"/C",
+						"sc stop wsearch && sc config wsearch start=disabled" // auto para activar
+				};
 				try {
-					ProcessBuilder desactivarWindowsSearchPaso1 = new ProcessBuilder("cmd.exe", "/c", "net stop wsearch");
+					ProcessBuilder desactivarWindowsSearchPaso1 = new ProcessBuilder(comandos);
 					Process desactivarWindowsSearchPaso1Process = desactivarWindowsSearchPaso1.start();
 					desactivarWindowsSearchPaso1.redirectErrorStream(true);
 					
 					int exitCode = desactivarWindowsSearchPaso1Process.waitFor();
 					
 					if (exitCode == 0) {
-						ProcessBuilder desactivarWindowsSearchPaso2 = new ProcessBuilder("cmd.exe", "/c", "sc config wsearch start=disabled"); // auto para activar
-						Process desactivarWindowsSearchPaso2Process = desactivarWindowsSearchPaso2.start();
-						desactivarWindowsSearchPaso2.redirectErrorStream(true);
 						
-						exitCode = desactivarWindowsSearchPaso2Process.waitFor();
-						
-						if (exitCode == 0) {
-							JOptionPane.showMessageDialog(null, "Se ha desactivado Windows Search correctamente", "Informacion", JOptionPane.INFORMATION_MESSAGE);
+						JOptionPane.showMessageDialog(null, "Se ha desactivado Windows Search correctamente", "Informacion", JOptionPane.INFORMATION_MESSAGE);
 
-						} else {
-							JOptionPane.showMessageDialog(null, "Ha habido un problema al desactivar Windows Search", "Error", JOptionPane.ERROR_MESSAGE);
-						}
 					} else {
 						JOptionPane.showMessageDialog(null, "Ha habido un problema al parar el servicio Windows Search", "Error", JOptionPane.ERROR_MESSAGE);
 					}

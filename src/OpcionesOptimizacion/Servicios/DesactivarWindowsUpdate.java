@@ -22,7 +22,7 @@ public class DesactivarWindowsUpdate {
 				String[] comandos = {
 						"cmd.exe",
 						"/C",
-						"net stop wuauserv && sc config wuauserv start=disabled"
+						"net stop wuauserv && sc config wuauserv start=disabled" // auto para activar
 				};
 
 				ProcessBuilder desactivarWindowsUpdate = new ProcessBuilder(comandos);
