@@ -10,7 +10,7 @@ public class DesactivarSysMain {
         botonDesactivarSysMain.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                // Falta saber si esta desactivado o activado, no funciona del todo
+                // Falta saber si esta desactivado o activado
 
                 int opcion = JOptionPane.showOptionDialog(null, "Advertencia: Puede que el sistema vaya mas lento o mejor", "Advertencia", JOptionPane.YES_NO_OPTION, JOptionPane.WARNING_MESSAGE, null, new Object[] { "Aceptar", "Cancelar" }, "Aceptar");
 

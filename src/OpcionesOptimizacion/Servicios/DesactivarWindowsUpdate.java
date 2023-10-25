@@ -17,12 +17,14 @@ public class DesactivarWindowsUpdate {
 
 			@Override
 			public void actionPerformed(ActionEvent e) {
+				// Falta saber si esta desactivado o activado
+
 				// Creamos el proceso para detener Windows Update;
 
 				String[] comandos = {
 						"cmd.exe",
 						"/C",
-						"net stop wuauserv && sc config wuauserv start=disabled" // auto para activar
+						"sc stop wuauserv && sc config wuauserv start=disabled" // auto para activar
 				};
 
 				ProcessBuilder desactivarWindowsUpdate = new ProcessBuilder(comandos);
