@@ -12,7 +12,7 @@ public class DesactivarBluetooth {
             @Override
             public void actionPerformed(ActionEvent e) {
                 try {
-                    // Falta saber si esta desactivado o activado
+                    // Falta saber si esta desactivado o activado y probarlo
                     String comando = "powershell.exe -Command \"& {Disable-NetAdapter -Name 'Bluetooth'}\""; // Activate para activar
                     ProcessBuilder desactivarBluetooth = new ProcessBuilder("cmd.exe", "/c", comando);
                     desactivarBluetooth.redirectErrorStream(true);
