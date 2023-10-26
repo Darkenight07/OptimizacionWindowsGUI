@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="eed625b4-3057-4417-ad8e-cfbfd186a96b" name="Changes" comment="Cambios">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OpcionesOptimizacion/Servicios/DesactivarWindowsSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OpcionesOptimizacion/Servicios/DesactivarWindowsSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OpcionesOptimizacion/Servicios/DesactivarWindowsUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OpcionesOptimizacion/Servicios/DesactivarWindowsUpdate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OpcionesOptimizacion/Servicios/DesactivarBluetooth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OpcionesOptimizacion/Servicios/DesactivarBluetooth.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,14 +70,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697709564290</updated>
-    </task>
-    <task id="LOCAL-00001" summary="Sin terminar">
-      <option name="closed" value="true" />
-      <created>1697711428418</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1697711428418</updated>
     </task>
     <task id="LOCAL-00002" summary="Agregado GUI, sin terminar">
       <option name="closed" value="true" />
@@ -456,7 +447,23 @@
       <option name="project" value="LOCAL" />
       <updated>1698314728723</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Codigo completo, verificador de estado funcionando">
+      <option name="closed" value="true" />
+      <created>1698315250407</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1698315250407</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Cambios">
+      <option name="closed" value="true" />
+      <created>1698315262182</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1698315262183</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -491,9 +498,9 @@
     <MESSAGE value="Hay que probar, falta hacer una comprobacion para ver si esta en ejecuccion" />
     <MESSAGE value="Funcionando, falta hacer una comprobacion para ver si esta en ejecuccion" />
     <MESSAGE value="Funciona, verificador de estado de servicios" />
-    <MESSAGE value="Codigo completo, verificador de estado funcionando" />
     <MESSAGE value="Funcionando" />
     <MESSAGE value="Funcionando, verificador de estado funcionando" />
+    <MESSAGE value="Codigo completo, verificador de estado funcionando" />
     <MESSAGE value="Cambios" />
     <option name="LAST_COMMIT_MESSAGE" value="Cambios" />
   </component>
