@@ -84,6 +84,7 @@ public class DesactivarSysMain {
                         return;
                     }
                 } else {
+                    JOptionPane.showMessageDialog(null, "Ha habido un problema al verificar el estado del servicio Sysmain/Superfetch", "Error", JOptionPane.ERROR_MESSAGE);
                     System.out.println("No se pudo obtener información del servicio SysMain.");
                 }
             }
