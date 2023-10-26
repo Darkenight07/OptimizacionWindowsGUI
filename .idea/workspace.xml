@@ -11,8 +11,6 @@
   <component name="ChangeListManager">
     <list default="true" id="eed625b4-3057-4417-ad8e-cfbfd186a96b" name="Changes" comment="Cambios">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OpcionesOptimizacion/Servicios/DesactivarWindowsUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OpcionesOptimizacion/Servicios/DesactivarWindowsUpdate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OptimizacionWindowsGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OptimizacionWindowsGUI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,38 +82,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697709564290</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Falta barra de progreso en desfragmentacion de unidades">
-      <option name="closed" value="true" />
-      <created>1697722728783</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1697722728783</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Faltan por funcionar los 3 ultimos botones">
-      <option name="closed" value="true" />
-      <created>1697750057514</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1697750057514</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Faltan por funcionar los 4 ultimos botones">
-      <option name="closed" value="true" />
-      <created>1697750273150</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1697750273150</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Faltan por funcionar los 3 ultimos botones. Desactivador de Bluetooth funcionando casi.">
-      <option name="closed" value="true" />
-      <created>1698101206418</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1698101206418</updated>
     </task>
     <task id="LOCAL-00009" summary="Desactivador de Bluetooth, funcionado casi">
       <option name="closed" value="true" />
@@ -477,7 +443,39 @@
       <option name="project" value="LOCAL" />
       <updated>1698353168678</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Codigo corregido, el codigo era de Windows Search">
+      <option name="closed" value="true" />
+      <created>1698353764357</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1698353764357</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Cambio">
+      <option name="closed" value="true" />
+      <created>1698353803752</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1698353803752</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Cambios">
+      <option name="closed" value="true" />
+      <created>1698353825620</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1698353825620</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Cambios">
+      <option name="closed" value="true" />
+      <created>1698353840292</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1698353840292</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -492,7 +490,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Sin terminar" />
     <MESSAGE value="Agregado GUI, sin terminar" />
     <MESSAGE value="Agregado GUI, sin terminar, falta desfragmentacion de unidades" />
     <MESSAGE value="Falta barra de progreso en desfragmentacion de unidades" />
@@ -515,6 +512,8 @@
     <MESSAGE value="Funcionando" />
     <MESSAGE value="Funcionando, verificador de estado funcionando" />
     <MESSAGE value="Codigo completo, verificador de estado funcionando" />
+    <MESSAGE value="Codigo corregido, el codigo era de Windows Search" />
+    <MESSAGE value="Cambio" />
     <MESSAGE value="Cambios" />
     <option name="LAST_COMMIT_MESSAGE" value="Cambios" />
   </component>
