@@ -6,12 +6,11 @@
   <li>Eliminador de carpetas temporales y archivos temporales</li>
   <li>Desinstalador de OneDrive</li>
   <li>Desfragmentador de unidades</li>
+  <li>Desactivador de Bluetooth</li> 
+  <li>Desactivador de SysMain o Superfetch</li>
+  <li>Desactivador de Windows Search</li>
+  <li>Desactivador de Windows Update</li>
 </ul>
  
 <h3>Opciones de Optimización futuros</h3>
-<ul>
-  <li>(Falta probar) Desactivador de Bluetooth</li> 
-  <li>(Funcionando) Desactivador de SysMain o Superfetch</li>
-  <li>(Funcionando) Desactivador de Windows Search </li>
-  <li>(Funcionando) Desactivador de Windows Update </li>
-</ul> 
+<p>Pronto nuevas opciones futuras</p>
