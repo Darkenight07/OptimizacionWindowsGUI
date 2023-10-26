@@ -4,7 +4,7 @@ import java.io.IOException;
 import javax.swing.*;
 import java.awt.event.*;
 
-public class DesactivarWindowsUpdate {
+public class DesactivarWindowsUpdate { 
 
 	public static void DesactivarWindowsUpdate(JFrame frame) {
 		JButton botonDesactivarWindowsUpdate = new JButton("Desactivar Windows Update");
