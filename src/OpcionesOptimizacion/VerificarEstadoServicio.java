@@ -17,7 +17,7 @@ public class VerificarEstadoServicio {
             String line;
             while ((line = reader.readLine()) != null) {
                 if (line.contains("ESTADO")) {
-                    return line.split("\\s+")[3]; // Obtenemos el estado, 1 y no se esta ejecutando y 4 se esta ejecutando
+                    return line.split("\\s+")[3]; // Obtenemos el estado, 1 no se esta ejecutando y 4 se esta ejecutando
                 }
             }
         } catch (IOException e) {
