@@ -1,7 +1,8 @@
 import java.io.IOException; 
 import java.awt.*;
 import javax.swing.*;
-import java.awt.event.*;
+
+import OpcionesOptimizacion.Servicios.DesactivarWindowsSearch;
 import OpcionesOptimizacion.General.*;
 import OpcionesOptimizacion.Servicios.*;
 public class OptimizacionWindowsGUI {
