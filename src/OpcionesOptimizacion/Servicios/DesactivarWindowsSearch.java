@@ -2,7 +2,7 @@ package OpcionesOptimizacion.Servicios;
 import OpcionesOptimizacion.VerificarEstadoServicio;
 import javax.swing.*;
 import java.awt.event.*;
-public class DesactivarWindowsSearch {
+public class DesactivarWindowsSearch { 
 	
 	public static void DesactivarWindowsSearch(JFrame frame) {
 		JButton botonDesactivarWindowsSearch = new JButton("Desactivar Windows Search");
