@@ -11,7 +11,6 @@ public class DesactivarSysMain {
         botonDesactivarSysMain.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                // Falta saber si esta desactivado o activado
 
                 String estado = VerificarEstadoServicio.VerificarEstadoServicio("sysmain");
                 if (estado != null) {
