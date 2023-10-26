@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eed625b4-3057-4417-ad8e-cfbfd186a96b" name="Changes" comment="Funcionando, falta hacer una comprobacion para ver si esta en ejecuccion">
+    <list default="true" id="eed625b4-3057-4417-ad8e-cfbfd186a96b" name="Changes" comment="Codigo completo, verificador de estado funcionando">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OpcionesOptimizacion/Servicios/DesactivarSysMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OpcionesOptimizacion/Servicios/DesactivarSysMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OpcionesOptimizacion/Servicios/DesactivarWindowsUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OpcionesOptimizacion/Servicios/DesactivarWindowsUpdate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OpcionesOptimizacion/VerificarEstadoServicio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OpcionesOptimizacion/VerificarEstadoServicio.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +21,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
@@ -358,7 +358,47 @@
       <option name="project" value="LOCAL" />
       <updated>1698270901747</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Funcionando, falta hacer una comprobacion para ver si esta en ejecuccion">
+      <option name="closed" value="true" />
+      <created>1698271359976</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1698271359976</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Cambios">
+      <option name="closed" value="true" />
+      <created>1698271438815</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1698271438815</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Cambios">
+      <option name="closed" value="true" />
+      <created>1698271487819</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1698271487819</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Funciona, verificador de estado de servicios">
+      <option name="closed" value="true" />
+      <created>1698313685046</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1698313685046</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Codigo completo, verificador de estado funcionando">
+      <option name="closed" value="true" />
+      <created>1698313733391</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1698313733391</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -391,9 +431,21 @@
     <MESSAGE value="Mejoras, mas eficiente" />
     <MESSAGE value="Traslado de la clase principal del boton de eliminar archivos temporales a otra clase." />
     <MESSAGE value="Hay que probar, falta hacer una comprobacion para ver si esta en ejecuccion" />
-    <MESSAGE value="Cambios" />
     <MESSAGE value="Funcionando, falta hacer una comprobacion para ver si esta en ejecuccion" />
-    <option name="LAST_COMMIT_MESSAGE" value="Funcionando, falta hacer una comprobacion para ver si esta en ejecuccion" />
+    <MESSAGE value="Cambios" />
+    <MESSAGE value="Funciona, verificador de estado de servicios" />
+    <MESSAGE value="Codigo completo, verificador de estado funcionando" />
+    <option name="LAST_COMMIT_MESSAGE" value="Codigo completo, verificador de estado funcionando" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="javax.management.MalformedObjectNameException" package="javax.management" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
