@@ -10,15 +10,12 @@ public class DesactivarWindowsSearch {
         frame.add(botonDesactivarWindowsSearch);
         
         botonDesactivarWindowsSearch.addActionListener(new ActionListener() {
-            
-			@Override
-			public void actionPerformed(ActionEvent e) {
-                
-                String estado = VerificarEstadoServicio.VerificarEstadoServicio("wsearch");
-                
-                if (estado != null) {
-                    System.out.println("Estado del servicio Windows Search: " + estado);
-                    if (estado.equals("4")) {
+		@Override
+		public void actionPerformed(ActionEvent e) {
+            String estado = VerificarEstadoServicio.VerificarEstadoServicio("wsearch");
+            if (estado != null) {
+                System.out.println("Estado del servicio Windows Search: " + estado);
+                if (estado.equals("4")) {
                         String[] comandos = {
                             "cmd.exe",
                             "/C",
