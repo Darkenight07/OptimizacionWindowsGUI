@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eed625b4-3057-4417-ad8e-cfbfd186a96b" name="Changes" comment="Codigo completo, verificador de estado funcionando">
+    <list default="true" id="eed625b4-3057-4417-ad8e-cfbfd186a96b" name="Changes" comment="Funcionando">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OpcionesOptimizacion/VerificarEstadoServicio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OpcionesOptimizacion/VerificarEstadoServicio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OpcionesOptimizacion/Servicios/DesactivarSysMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OpcionesOptimizacion/Servicios/DesactivarSysMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OpcionesOptimizacion/Servicios/DesactivarWindowsSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OpcionesOptimizacion/Servicios/DesactivarWindowsSearch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,13 +56,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.github.copilot.settings.ApplicationConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "settings.editor.selected.configurable": "com.github.copilot.settings.ApplicationConfigurable"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -398,7 +401,39 @@
       <option name="project" value="LOCAL" />
       <updated>1698313733391</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Codigo completo, verificador de estado funcionando">
+      <option name="closed" value="true" />
+      <created>1698313754436</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1698313754436</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Cambios">
+      <option name="closed" value="true" />
+      <created>1698313769852</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1698313769852</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Codigo completo, verificador de estado funcionando">
+      <option name="closed" value="true" />
+      <created>1698313853405</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1698313853405</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Funcionando">
+      <option name="closed" value="true" />
+      <created>1698314278881</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1698314278881</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -432,10 +467,11 @@
     <MESSAGE value="Traslado de la clase principal del boton de eliminar archivos temporales a otra clase." />
     <MESSAGE value="Hay que probar, falta hacer una comprobacion para ver si esta en ejecuccion" />
     <MESSAGE value="Funcionando, falta hacer una comprobacion para ver si esta en ejecuccion" />
-    <MESSAGE value="Cambios" />
     <MESSAGE value="Funciona, verificador de estado de servicios" />
+    <MESSAGE value="Cambios" />
     <MESSAGE value="Codigo completo, verificador de estado funcionando" />
-    <option name="LAST_COMMIT_MESSAGE" value="Codigo completo, verificador de estado funcionando" />
+    <MESSAGE value="Funcionando" />
+    <option name="LAST_COMMIT_MESSAGE" value="Funcionando" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
