@@ -22,7 +22,7 @@ public class DesactivarWindowsSearch {
 						String[] comandos = {
 								"cmd.exe",
 								"/C",
-								"sc stop wsearch && sc config wsearch start=disabled" // auto para activar
+								"sc stop wsearch && sc config wsearch start=disabled"
 						};
 
 						try {
