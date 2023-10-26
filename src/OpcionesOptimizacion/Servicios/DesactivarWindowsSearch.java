@@ -5,6 +5,7 @@ import java.awt.event.*;
 public class DesactivarWindowsSearch { 
 	
 	public static void DesactivarWindowsSearch(JFrame frame) {
+        
 		JButton botonDesactivarWindowsSearch = new JButton("Desactivar Windows Search");
         botonDesactivarWindowsSearch.setBounds(10, 320, 178, 30);
         frame.add(botonDesactivarWindowsSearch);
@@ -77,7 +78,6 @@ public class DesactivarWindowsSearch {
 				} else {
 					JOptionPane.showMessageDialog(null, "Ha habido un problema al verificar el estado del servicio Windows Search", "Error", JOptionPane.ERROR_MESSAGE);
 					System.out.println("No se pudo obtener información del servicio SysMain.");
-
 				}
 			}
         });
