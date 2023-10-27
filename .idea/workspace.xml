@@ -10,8 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eed625b4-3057-4417-ad8e-cfbfd186a96b" name="Changes" comment="Cambios">
+      <change afterPath="$PROJECT_DIR$/src/OpcionesOptimizacion/General/ModoEnergiaMaximoRendimiento.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OpcionesOptimizacion/General/DesinstalarOneDrive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OpcionesOptimizacion/General/DesinstalarOneDrive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OptimizacionWindowsGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OptimizacionWindowsGUI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,22 +84,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697709564290</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Changes">
-      <option name="closed" value="true" />
-      <created>1698101313183</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1698101313183</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Boton de desinstalar OneDrive funcionando en una clase diferente.">
-      <option name="closed" value="true" />
-      <created>1698101781215</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1698101781215</updated>
     </task>
     <task id="LOCAL-00012" summary="Changes">
       <option name="closed" value="true" />
@@ -476,7 +461,23 @@
       <option name="project" value="LOCAL" />
       <updated>1698354639269</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="Mejora, verificador de instalacion de OneDrive">
+      <option name="closed" value="true" />
+      <created>1698446766798</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1698446766798</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Cambios">
+      <option name="closed" value="true" />
+      <created>1698446822856</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1698446822856</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -491,7 +492,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Agregado GUI, sin terminar" />
     <MESSAGE value="Agregado GUI, sin terminar, falta desfragmentacion de unidades" />
     <MESSAGE value="Falta barra de progreso en desfragmentacion de unidades" />
     <MESSAGE value="Faltan por funcionar los 3 ultimos botones" />
@@ -515,6 +515,7 @@
     <MESSAGE value="Codigo completo, verificador de estado funcionando" />
     <MESSAGE value="Codigo corregido, el codigo era de Windows Search" />
     <MESSAGE value="Cambio" />
+    <MESSAGE value="Mejora, verificador de instalacion de OneDrive" />
     <MESSAGE value="Cambios" />
     <option name="LAST_COMMIT_MESSAGE" value="Cambios" />
   </component>
