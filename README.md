@@ -16,9 +16,14 @@
 <h3>Opciones de Optimización futuras</h3>
 <ul>
   <li>Modo de energia maximo rendimiento</li>
-
 </ul>
 <p>Pronto nuevas opciones futuras</p>
+
+<h3>Caracteristicas futuras</h3>
+<ul>
+  <li>Mejora de diseño GUI</li>
+</ul>
+<p>Pronto nuevas caracteristicas futuras</p>
 
 <h2>Versiones disponibles</h2>
 <a href="https://github.com/Darkenight07/OptimizacionWindowsGUI/releases">Versiones</a>
