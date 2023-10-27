@@ -1,5 +1,5 @@
 package OpcionesOptimizacion.Servicios; 
-import OpcionesOptimizacion.*;
+import OpcionesOptimizacion.*; 
 import java.io.IOException;
 import javax.swing.*;
 import java.awt.event.*;
