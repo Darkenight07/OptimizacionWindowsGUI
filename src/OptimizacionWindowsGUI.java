@@ -33,8 +33,11 @@ public class OptimizacionWindowsGUI {
 
         // Archivo java/clase para desfragmentar unidades
         DesfragmentarUnidades.DesfragmentarUnidades(frame);
-        
-        
+
+        // Activar modo de energia maximo rendimiento
+        ModoEnergiaMaximoRendimiento.ModoEnergiaMaximoRendimiento(frame);
+
+
         // SERVICIOS
         
 
@@ -44,10 +47,10 @@ public class OptimizacionWindowsGUI {
         // Archivo java/clase para desactivar SysMain o Superfetch
         DesactivarSysMain.DesactivarSysMain(frame);
 
-        // Archivo java/clase para desactivar Windows Search --
+        // Archivo java/clase para desactivar Windows Search
         DesactivarWindowsSearch.DesactivarWindowsSearch(frame);
 
-        // Archivo java/clase pra desactivar Windows Update --
+        // Archivo java/clase para desactivar Windows Update
         DesactivarWindowsUpdate.DesactivarWindowsUpdate(frame);
 
         // Hacemos visible la ventana siempre
