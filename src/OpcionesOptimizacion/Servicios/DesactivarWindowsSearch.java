@@ -2,6 +2,8 @@ package OpcionesOptimizacion.Servicios;
 import OpcionesOptimizacion.VerificarEstadoServicio;
 import javax.swing.*;
 import java.awt.event.*;
+
+
 public class DesactivarWindowsSearch { 
 	
 	public static void DesactivarWindowsSearch(JFrame frame) { 
