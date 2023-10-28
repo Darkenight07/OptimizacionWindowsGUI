@@ -15,7 +15,7 @@
 
 <h3>Opciones de Optimización futuras</h3>
 <ul>
-  <li>Modo de energia maximo rendimiento</li>
+  <li>(Funcionando) Modo de energia maximo rendimiento</li>
 </ul>
 <p>Pronto nuevas opciones futuras</p>
 
