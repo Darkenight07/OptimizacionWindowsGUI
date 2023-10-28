@@ -10,9 +10,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eed625b4-3057-4417-ad8e-cfbfd186a96b" name="Changes" comment="Cambios">
-      <change afterPath="$PROJECT_DIR$/src/OpcionesOptimizacion/General/ModoEnergiaMaximoRendimiento.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OptimizacionWindowsGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OptimizacionWindowsGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OpcionesOptimizacion/General/DesfragmentarUnidades.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OpcionesOptimizacion/General/DesfragmentarUnidades.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OpcionesOptimizacion/General/DesinstalarOneDrive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OpcionesOptimizacion/General/DesinstalarOneDrive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OpcionesOptimizacion/General/EliminarArchivosTemporales.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OpcionesOptimizacion/General/EliminarArchivosTemporales.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OpcionesOptimizacion/General/ModoEnergiaMaximoRendimiento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OpcionesOptimizacion/General/ModoEnergiaMaximoRendimiento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OpcionesOptimizacion/Servicios/DesactivarBluetooth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OpcionesOptimizacion/Servicios/DesactivarBluetooth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OpcionesOptimizacion/Servicios/DesactivarSysMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OpcionesOptimizacion/Servicios/DesactivarSysMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OpcionesOptimizacion/Servicios/DesactivarWindowsSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OpcionesOptimizacion/Servicios/DesactivarWindowsSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OpcionesOptimizacion/Servicios/DesactivarWindowsUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OpcionesOptimizacion/Servicios/DesactivarWindowsUpdate.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,22 +90,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697709564290</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Changes">
-      <option name="closed" value="true" />
-      <created>1698101792808</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1698101792808</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Changes">
-      <option name="closed" value="true" />
-      <created>1698149061449</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1698149061449</updated>
     </task>
     <task id="LOCAL-00014" summary="Creado archivo java para ejecutar el Desfragmentador de unidades">
       <option name="closed" value="true" />
@@ -477,7 +467,23 @@
       <option name="project" value="LOCAL" />
       <updated>1698446822856</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Añadido modo de energia maximo rendimiento, no hecho">
+      <option name="closed" value="true" />
+      <created>1698447182205</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1698447182205</updated>
+    </task>
+    <task id="LOCAL-00062" summary="Cambios">
+      <option name="closed" value="true" />
+      <created>1698447202414</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1698447202415</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -492,7 +498,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Agregado GUI, sin terminar, falta desfragmentacion de unidades" />
     <MESSAGE value="Falta barra de progreso en desfragmentacion de unidades" />
     <MESSAGE value="Faltan por funcionar los 3 ultimos botones" />
     <MESSAGE value="Faltan por funcionar los 4 ultimos botones" />
@@ -516,6 +521,7 @@
     <MESSAGE value="Codigo corregido, el codigo era de Windows Search" />
     <MESSAGE value="Cambio" />
     <MESSAGE value="Mejora, verificador de instalacion de OneDrive" />
+    <MESSAGE value="Añadido modo de energia maximo rendimiento, no hecho" />
     <MESSAGE value="Cambios" />
     <option name="LAST_COMMIT_MESSAGE" value="Cambios" />
   </component>
