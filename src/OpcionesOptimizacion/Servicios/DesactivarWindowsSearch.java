@@ -9,7 +9,7 @@ public class DesactivarWindowsSearch {
 	public static void DesactivarWindowsSearch(JFrame frame) { 
         
 		JButton botonDesactivarWindowsSearch = new JButton("Desactivar Windows Search");
-        botonDesactivarWindowsSearch.setBounds(10, 320, 178, 30);
+        botonDesactivarWindowsSearch.setBounds(10, 320, 200, 30);
         frame.add(botonDesactivarWindowsSearch);
         
         botonDesactivarWindowsSearch.addActionListener(new ActionListener() {

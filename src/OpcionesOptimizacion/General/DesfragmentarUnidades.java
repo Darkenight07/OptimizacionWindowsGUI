@@ -5,7 +5,7 @@ import java.awt.event.*;
 public class DesfragmentarUnidades {
     public static void DesfragmentarUnidades(JFrame frame) {
         JButton botonDesfragmentarUnidades = new JButton("Desfragmentar unidades");
-        botonDesfragmentarUnidades.setBounds(10, 200, 178, 30);
+        botonDesfragmentarUnidades.setBounds(10, 200, 200, 30);
         frame.add(botonDesfragmentarUnidades);
 
         botonDesfragmentarUnidades.addActionListener(new ActionListener() {

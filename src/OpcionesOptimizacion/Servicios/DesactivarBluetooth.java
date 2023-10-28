@@ -7,7 +7,7 @@ import java.awt.event.ActionListener;
 public class DesactivarBluetooth {
     public static void DesactivarBluetooth(JFrame frame) {
         JButton botonDesactivarBluetooth = new JButton("Desactivar Bluetooth");
-        botonDesactivarBluetooth.setBounds(10, 240, 178, 30);
+        botonDesactivarBluetooth.setBounds(10, 240, 200, 30);
         frame.add(botonDesactivarBluetooth);
         botonDesactivarBluetooth.addActionListener(new ActionListener() {
             @Override

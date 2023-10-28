@@ -5,7 +5,7 @@ import java.awt.event.*;
 public class DesinstalarOneDrive {
     public static void DesactivarOneDrive(JFrame frame) {
         JButton botonDesinstalarOneDrive = new JButton("Desinstalar OneDrive");
-        botonDesinstalarOneDrive.setBounds(10, 160, 178, 30);
+        botonDesinstalarOneDrive.setBounds(10, 160, 200, 30);
         frame.add(botonDesinstalarOneDrive);
 
         botonDesinstalarOneDrive.addActionListener(new ActionListener() {

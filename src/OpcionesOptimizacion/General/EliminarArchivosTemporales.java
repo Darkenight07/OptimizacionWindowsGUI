@@ -5,8 +5,8 @@ import java.awt.event.*;
 
 public class EliminarArchivosTemporales {
     public static void EliminarArchivosTemporales(JFrame frame) {
-        JButton botonEliminarArchivosTemporales = new JButton("Eliminar archivos/carpetas temporales");
-        botonEliminarArchivosTemporales.setBounds(10, 120, 178, 30);
+        JButton botonEliminarArchivosTemporales = new JButton("Eliminar archivos temporales");
+        botonEliminarArchivosTemporales.setBounds(10, 120, 200, 30);
         frame.add(botonEliminarArchivosTemporales);
 
         botonEliminarArchivosTemporales.addActionListener(new ActionListener() {

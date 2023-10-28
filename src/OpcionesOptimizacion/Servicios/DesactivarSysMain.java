@@ -6,7 +6,7 @@ import java.awt.event.*;
 public class DesactivarSysMain {
     public static void DesactivarSysMain(JFrame frame) {
         JButton botonDesactivarSysMain = new JButton("Desactivar Superfetch");
-        botonDesactivarSysMain.setBounds(10, 280, 178, 30);
+        botonDesactivarSysMain.setBounds(10, 280, 200, 30);
         frame.add(botonDesactivarSysMain);
         botonDesactivarSysMain.addActionListener(new ActionListener() {
             @Override

@@ -8,7 +8,7 @@ public class DesactivarWindowsUpdate {
 
 	public static void DesactivarWindowsUpdate(JFrame frame) {
 		JButton botonDesactivarWindowsUpdate = new JButton("Desactivar Windows Update");
-		botonDesactivarWindowsUpdate.setBounds(10, 360, 178, 30);
+		botonDesactivarWindowsUpdate.setBounds(10, 360, 200, 30);
 		frame.add(botonDesactivarWindowsUpdate);
 
 		botonDesactivarWindowsUpdate.addActionListener(new ActionListener() {
