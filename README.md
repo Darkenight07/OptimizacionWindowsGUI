@@ -16,6 +16,7 @@
 <h3>Opciones de Optimización futuras</h3>
 <ul>
   <li>(Funcionando) Modo de energia maximo rendimiento</li>
+  <li>(Todavía no creado) Desactivador de efectos visuales</li>
 </ul>
 <p>Pronto nuevas opciones futuras</p>
 
