@@ -30,6 +30,12 @@ public class OptimizacionWindowsGUI {
 
         // Archivo java/clase para desfragmentar unidades
         DesfragmentarUnidades.DesfragmentarUnidades(frame);
+
+        // Activar modo de energia maximo rendimiento
+        ModoEnergiaMaximoRendimiento.ModoEnergiaMaximoRendimiento(frame);
+
+        // Archivo java para desactivar los efectos visuales
+        DesactivarEfectosVisuales.DesactivarEfectosVisuales(frame);
         
         
         // SERVICIOS
