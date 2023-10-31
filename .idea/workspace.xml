@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eed625b4-3057-4417-ad8e-cfbfd186a96b" name="Changes" comment="Cambios">
-      <change afterPath="$PROJECT_DIR$/src/OpcionesOptimizacion/General/DesactivarEfectosVisuales.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OptimizacionWindowsGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OptimizacionWindowsGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OpcionesOptimizacion/General/DesactivarEfectosVisuales.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OpcionesOptimizacion/General/DesactivarEfectosVisuales.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,14 +73,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697709564290</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Falta barra de progreso en desfragmentacion de unidades">
-      <option name="closed" value="true" />
-      <created>1697722728783</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1697722728783</updated>
     </task>
     <task id="LOCAL-00006" summary="Faltan por funcionar los 3 ultimos botones">
       <option name="closed" value="true" />
@@ -467,7 +458,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698756187498</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Cambios">
+      <option name="closed" value="true" />
+      <created>1698756284854</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1698756284854</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
