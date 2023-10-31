@@ -1,20 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ArtifactsWorkspaceSettings">
-    <artifacts-to-build>
-      <artifact name="OptimizacionWindowsGUI:jar" />
-    </artifacts-to-build>
-  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eed625b4-3057-4417-ad8e-cfbfd186a96b" name="Changes" comment="Cambios">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/OptimizacionWindowsGUI_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_10_2023_0_47_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_10_2023_0_47__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26_10_2023_0_02__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26_10_2023_0_02__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26_10_2023_0_02_[Changes]/shelved.patch" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26_10_2023_0_02_[Changes]/shelved.patch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_28_10_2023_0_46_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_28_10_2023_0_46__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_28_10_2023_0_53_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_28_10_2023_0_53__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OptimizacionWindowsGUI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/OptimizacionWindowsGUI.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/OpcionesOptimizacion/General/DesactivarEfectosVisuales.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/OpcionesOptimizacion/General/DesfragmentarUnidades.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/OpcionesOptimizacion/General/DesinstalarOneDrive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/OpcionesOptimizacion/General/EliminarArchivosTemporales.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/OpcionesOptimizacion/General/ModoEnergiaMaximoRendimiento.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/OpcionesOptimizacion/Servicios/DesactivarBluetooth.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/OpcionesOptimizacion/Servicios/DesactivarSysMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/OpcionesOptimizacion/Servicios/DesactivarWindowsSearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/OpcionesOptimizacion/Servicios/DesactivarWindowsUpdate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/OpcionesOptimizacion/VerificarEstadoServicio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/OptimizacionWindowsGUI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/OpcionesOptimizacion/General/DesactivarEfectosVisuales$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/OpcionesOptimizacion/General/DesactivarEfectosVisuales.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/OpcionesOptimizacion/General/DesfragmentarUnidades$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/OpcionesOptimizacion/General/DesfragmentarUnidades.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/OpcionesOptimizacion/General/DesinstalarOneDrive$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/OpcionesOptimizacion/General/DesinstalarOneDrive.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/OpcionesOptimizacion/General/EliminarArchivosTemporales$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/OpcionesOptimizacion/General/EliminarArchivosTemporales.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/OpcionesOptimizacion/General/ModoEnergiaMaximoRendimiento$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/OpcionesOptimizacion/General/ModoEnergiaMaximoRendimiento.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/OpcionesOptimizacion/Servicios/DesactivarBluetooth$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/OpcionesOptimizacion/Servicios/DesactivarBluetooth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/OpcionesOptimizacion/Servicios/DesactivarSysMain$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/OpcionesOptimizacion/Servicios/DesactivarSysMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/OpcionesOptimizacion/Servicios/DesactivarWindowsSearch$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/OpcionesOptimizacion/Servicios/DesactivarWindowsSearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/OpcionesOptimizacion/Servicios/DesactivarWindowsUpdate$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/OpcionesOptimizacion/Servicios/DesactivarWindowsUpdate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/OpcionesOptimizacion/VerificarEstadoServicio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/OptimizacionWindowsGUI.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +90,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -67,19 +106,9 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Documentos/Samuel/Lenguajes de programación/Java/PiedraPapelTijeraGUI&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.build&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;
   }
 }</component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Documentos\Samuel\Lenguajes de programación\Java\OptimizacionWindowsJAVA\OptimizacionWindowsGUI\src\OpcionesOptimizacion\Servicios" />
-    </key>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -88,6 +117,126 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697709564290</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Agregado GUI, sin terminar">
+      <option name="closed" value="true" />
+      <created>1697712523323</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1697712523323</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Agregado GUI, sin terminar, falta desfragmentacion de unidades">
+      <option name="closed" value="true" />
+      <created>1697714739958</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1697714739958</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Falta barra de progreso en desfragmentacion de unidades">
+      <option name="closed" value="true" />
+      <created>1697721682307</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1697721682307</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Falta barra de progreso en desfragmentacion de unidades">
+      <option name="closed" value="true" />
+      <created>1697722728783</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1697722728783</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Faltan por funcionar los 3 ultimos botones">
+      <option name="closed" value="true" />
+      <created>1697750057514</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1697750057514</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Faltan por funcionar los 4 ultimos botones">
+      <option name="closed" value="true" />
+      <created>1697750273150</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1697750273150</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Faltan por funcionar los 3 ultimos botones. Desactivador de Bluetooth funcionando casi.">
+      <option name="closed" value="true" />
+      <created>1698101206418</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1698101206418</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Desactivador de Bluetooth, funcionado casi">
+      <option name="closed" value="true" />
+      <created>1698101293644</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1698101293644</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1698101313183</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1698101313183</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Boton de desinstalar OneDrive funcionando en una clase diferente.">
+      <option name="closed" value="true" />
+      <created>1698101781215</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1698101781215</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1698101792808</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1698101792808</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1698149061449</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1698149061449</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Creado archivo java para ejecutar el Desfragmentador de unidades">
+      <option name="closed" value="true" />
+      <created>1698149761507</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1698149761507</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1698149777104</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1698149777104</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1698151573202</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1698151573202</updated>
     </task>
     <task id="LOCAL-00017" summary="Opcion de desactivar SysMain, no funciona del todo todavia">
       <option name="closed" value="true" />
@@ -361,127 +510,7 @@
       <option name="project" value="LOCAL" />
       <updated>1698315262183</updated>
     </task>
-    <task id="LOCAL-00051" summary="Codigo completo, verificador de estado funcionando">
-      <option name="closed" value="true" />
-      <created>1698315717886</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1698315717886</updated>
-    </task>
-    <task id="LOCAL-00052" summary="Cambios">
-      <option name="closed" value="true" />
-      <created>1698315732171</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1698315732171</updated>
-    </task>
-    <task id="LOCAL-00053" summary="Cambios">
-      <option name="closed" value="true" />
-      <created>1698353168678</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1698353168678</updated>
-    </task>
-    <task id="LOCAL-00054" summary="Codigo corregido, el codigo era de Windows Search">
-      <option name="closed" value="true" />
-      <created>1698353764357</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1698353764357</updated>
-    </task>
-    <task id="LOCAL-00055" summary="Cambio">
-      <option name="closed" value="true" />
-      <created>1698353803752</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1698353803752</updated>
-    </task>
-    <task id="LOCAL-00056" summary="Cambios">
-      <option name="closed" value="true" />
-      <created>1698353825620</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1698353825620</updated>
-    </task>
-    <task id="LOCAL-00057" summary="Cambios">
-      <option name="closed" value="true" />
-      <created>1698353840292</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1698353840292</updated>
-    </task>
-    <task id="LOCAL-00058" summary="Cambios">
-      <option name="closed" value="true" />
-      <created>1698354639269</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1698354639269</updated>
-    </task>
-    <task id="LOCAL-00059" summary="Mejora, verificador de instalacion de OneDrive">
-      <option name="closed" value="true" />
-      <created>1698446766798</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1698446766798</updated>
-    </task>
-    <task id="LOCAL-00060" summary="Cambios">
-      <option name="closed" value="true" />
-      <created>1698446822856</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1698446822856</updated>
-    </task>
-    <task id="LOCAL-00061" summary="Añadido modo de energia maximo rendimiento, no hecho">
-      <option name="closed" value="true" />
-      <created>1698447182205</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1698447182205</updated>
-    </task>
-    <task id="LOCAL-00062" summary="Cambios">
-      <option name="closed" value="true" />
-      <created>1698447202414</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1698447202415</updated>
-    </task>
-    <task id="LOCAL-00063" summary="Cambios longitud boton">
-      <option name="closed" value="true" />
-      <created>1698488283343</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1698488283343</updated>
-    </task>
-    <task id="LOCAL-00064" summary="Modo de energia maximo rendimiento funcionando">
-      <option name="closed" value="true" />
-      <created>1698488334384</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1698488334384</updated>
-    </task>
-    <task id="LOCAL-00065" summary="Cambios">
-      <option name="closed" value="true" />
-      <created>1698488438689</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1698488438689</updated>
-    </task>
-    <option name="localTasksCounter" value="66" />
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -496,6 +525,11 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="Sin terminar" />
+    <MESSAGE value="Agregado GUI, sin terminar" />
+    <MESSAGE value="Agregado GUI, sin terminar, falta desfragmentacion de unidades" />
+    <MESSAGE value="Falta barra de progreso en desfragmentacion de unidades" />
+    <MESSAGE value="Faltan por funcionar los 3 ultimos botones" />
     <MESSAGE value="Faltan por funcionar los 4 ultimos botones" />
     <MESSAGE value="Faltan por funcionar los 3 ultimos botones. Desactivador de Bluetooth funcionando casi." />
     <MESSAGE value="Desactivador de Bluetooth, funcionado casi" />
@@ -514,12 +548,6 @@
     <MESSAGE value="Funcionando" />
     <MESSAGE value="Funcionando, verificador de estado funcionando" />
     <MESSAGE value="Codigo completo, verificador de estado funcionando" />
-    <MESSAGE value="Codigo corregido, el codigo era de Windows Search" />
-    <MESSAGE value="Cambio" />
-    <MESSAGE value="Mejora, verificador de instalacion de OneDrive" />
-    <MESSAGE value="Añadido modo de energia maximo rendimiento, no hecho" />
-    <MESSAGE value="Cambios longitud boton" />
-    <MESSAGE value="Modo de energia maximo rendimiento funcionando" />
     <MESSAGE value="Cambios" />
     <option name="LAST_COMMIT_MESSAGE" value="Cambios" />
   </component>

@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="OptimizacionWindowsGUI:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/OptimizacionWindowsGUI_jar</output-path>
-    <root id="archive" name="OptimizacionWindowsGUI.jar">
-      <element id="module-output" name="OptimizacionWindowsGUI" />
-    </root>
-  </artifact>
-</component>
