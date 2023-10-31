@@ -24,7 +24,7 @@ public class DesactivarEfectosVisuales {
                 // src/OpcionesOptimizacion/General/bat/DesactivarEfectosVisuales/prueba.bat
 
                 try {
-                    String[] command = { "cmd", "/k","start", "start",".\\src\\OpcionesOptimizacion\\General\\bat\\DesactivarEfectosVisuales\\prueba.bat" };
+                    String[] command = { "cmd", "/k","start", "start",".\\src\\OpcionesOptimizacion\\General\\bat\\DesactivarEfectosVisuales\\desactivarEfectosVisuales.bat" };
                     Process process = Runtime.getRuntime().exec(command);
                 } catch (IOException ex) {
                     ex.printStackTrace();
