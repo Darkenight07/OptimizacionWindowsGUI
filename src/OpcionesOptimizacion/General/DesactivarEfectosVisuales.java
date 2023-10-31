@@ -2,10 +2,7 @@ package OpcionesOptimizacion.General;
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.io.BufferedReader;
-import java.io.File;
 import java.io.IOException;
-import java.io.InputStreamReader;
 
 public class DesactivarEfectosVisuales {
 
@@ -21,9 +18,9 @@ public class DesactivarEfectosVisuales {
                 int valorActivarRegistro = 3;
                 int valorDesactivarRegistro = 2;
 
-                // src/OpcionesOptimizacion/General/bat/DesactivarEfectosVisuales/prueba.bat
 
                 try {
+                	JOptionPane.showMessageDialog(null, "Se va a ejecutar un archivo .bat, tienes que hacer lo que te pida", "Informacion", JOptionPane.INFORMATION_MESSAGE);
                     String[] command = { "cmd", "/k","start", "start",".\\src\\OpcionesOptimizacion\\General\\bat\\DesactivarEfectosVisuales\\desactivarEfectosVisuales.bat" };
                     Process process = Runtime.getRuntime().exec(command);
                 } catch (IOException ex) {
