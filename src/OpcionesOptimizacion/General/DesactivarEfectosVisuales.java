@@ -18,15 +18,6 @@ public class DesactivarEfectosVisuales {
                 int valorActivarRegistro = 3;
                 int valorDesactivarRegistro = 2;
 
-
-                try {
-                	JOptionPane.showMessageDialog(null, "Se va a ejecutar un archivo .bat, tienes que hacer lo que te pida", "Informacion", JOptionPane.INFORMATION_MESSAGE);
-                    String[] command = { "cmd", "/k","start", "start",".\\src\\OpcionesOptimizacion\\General\\bat\\DesactivarEfectosVisuales\\desactivarEfectosVisuales.bat" };
-                    Process process = Runtime.getRuntime().exec(command);
-                } catch (IOException ex) {
-                    ex.printStackTrace();
-                }
-
             }
         });
 
