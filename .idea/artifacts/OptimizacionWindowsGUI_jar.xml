@@ -1,10 +1,12 @@
 <component name="ArtifactManager">
-  <artifact type="jar" name="OptimizacionWindowsGUI:jar">
+  <artifact name="OptimizacionWindowsGUI:jar">
     <output-path>$PROJECT_DIR$/out/artifacts/OptimizacionWindowsGUI_jar</output-path>
-    <root id="archive" name="OptimizacionWindowsGUI.jar">
-      <element id="module-output" name="OptimizacionWindowsGUI" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/lib/jna-platform-jpms.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/lib/jna-jpms.jar" path-in-jar="/" />
+    <root id="root">
+      <element id="archive" name="OptimizacionWindowsGUI.jar">
+        <element id="module-output" name="OptimizacionWindowsGUI" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/lib/jna-jpms.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/lib/jna-platform-jpms.jar" path-in-jar="/" />
+      </element>
     </root>
   </artifact>
 </component>

@@ -7,7 +7,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="jna-jpms" level="project" />
-    <orderEntry type="library" name="jna-platform-jpms" level="project" />
+    <orderEntry type="library" exported="" name="jna-jpms" level="project" />
+    <orderEntry type="library" exported="" name="jna-platform-jpms" level="project" />
   </component>
 </module>

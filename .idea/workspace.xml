@@ -10,15 +10,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9c93e06-2791-4dbe-b11e-36d673bd2137" name="Changes" comment="Cambios, nada importante">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/OptimizacionWindowsGUI_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/OptimizacionWindows_Java_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/jna_jpms.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/jna_jpms.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/jna_platform_jpms.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/jna_platform_jpms.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/OptimizacionWindowsGUI_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/OptimizacionWindowsGUI_jar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26_10_2023_0_02_[Changes]/shelved.patch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26_10_2023_0_02__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OptimizacionWindowsGUI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/OptimizacionWindowsGUI.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OpcionesOptimizacion/General/DesactivarEfectosVisuales.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OpcionesOptimizacion/General/DesactivarEfectosVisuales.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +122,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698961563259</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Cambios, nada importante">
+      <option name="closed" value="true" />
+      <created>1698962923948</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1698962923948</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
