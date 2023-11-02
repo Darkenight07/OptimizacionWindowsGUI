@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eed625b4-3057-4417-ad8e-cfbfd186a96b" name="Changes" comment="Añadido bat para desactivar efectos visuales">
-      <change afterPath="$PROJECT_DIR$/src/OpcionesOptimizacion/General/bat/DesactivarEfectosVisuales/prueba.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prueba.bat" afterDir="false" />
+    <list default="true" id="eed625b4-3057-4417-ad8e-cfbfd186a96b" name="Changes" comment="Falta codigo, no terminado">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OpcionesOptimizacion/General/DesactivarEfectosVisuales.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OpcionesOptimizacion/General/DesactivarEfectosVisuales.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,15 +55,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/Documentos/Samuel/Lenguajes de programación/Java/OptimizacionWindows Java - copia",
+    "settings.editor.selected.configurable": "project.propCompiler"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -75,22 +73,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697709564290</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Faltan por funcionar los 3 ultimos botones. Desactivador de Bluetooth funcionando casi.">
-      <option name="closed" value="true" />
-      <created>1698101206418</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1698101206418</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Desactivador de Bluetooth, funcionado casi">
-      <option name="closed" value="true" />
-      <created>1698101293644</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1698101293644</updated>
     </task>
     <task id="LOCAL-00010" summary="Changes">
       <option name="closed" value="true" />
@@ -468,7 +450,23 @@
       <option name="project" value="LOCAL" />
       <updated>1698756783254</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="Prueba para comprobar si funciona correctamente">
+      <option name="closed" value="true" />
+      <created>1698763189907</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1698763189907</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Falta codigo, no terminado">
+      <option name="closed" value="true" />
+      <created>1698763230940</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1698763230940</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -484,8 +482,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Sin terminar" />
-    <MESSAGE value="Agregado GUI, sin terminar" />
     <MESSAGE value="Agregado GUI, sin terminar, falta desfragmentacion de unidades" />
     <MESSAGE value="Falta barra de progreso en desfragmentacion de unidades" />
     <MESSAGE value="Faltan por funcionar los 3 ultimos botones" />
@@ -509,7 +505,9 @@
     <MESSAGE value="Codigo completo, verificador de estado funcionando" />
     <MESSAGE value="Cambios" />
     <MESSAGE value="Añadido bat para desactivar efectos visuales" />
-    <option name="LAST_COMMIT_MESSAGE" value="Añadido bat para desactivar efectos visuales" />
+    <MESSAGE value="Prueba para comprobar si funciona correctamente" />
+    <MESSAGE value="Falta codigo, no terminado" />
+    <option name="LAST_COMMIT_MESSAGE" value="Falta codigo, no terminado" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
