@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jna-platform-jpms">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/jna/jna-platform-jpms.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
