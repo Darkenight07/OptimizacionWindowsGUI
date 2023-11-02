@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Main-Class: OptimizacionWindowsGUI
+Class-Path: jna-platform-jpms.jar jna-platform-jpms.jar jna-jpms.jar jna
+ -jpms.jar
+

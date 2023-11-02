@@ -2,6 +2,7 @@ import java.awt.*;
 import javax.swing.*;
 import OpcionesOptimizacion.General.*;
 import OpcionesOptimizacion.Servicios.*;
+
 public class OptimizacionWindowsGUI {
     public static void main(String[] args) {
 
