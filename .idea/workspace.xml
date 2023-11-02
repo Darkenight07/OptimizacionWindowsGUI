@@ -1,526 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="OptimizacionWindows Java:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eed625b4-3057-4417-ad8e-cfbfd186a96b" name="Changes" comment="Falta codigo, no terminado">
+    <list default="true" id="f9c93e06-2791-4dbe-b11e-36d673bd2137" name="Changes" comment="Funcionando, desactivador de efectos visuales terminado">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26_10_2023_0_02_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26_10_2023_0_02__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JRegistry-1.8.3_src-bin_x86__x86-64/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OptimizacionWindowsGUI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/OptimizacionWindowsGUI.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
-  </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;OMGSAMUELRBR&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="b8fb3c45-04dc-49bd-80f3-81416fc537c5" />
-        <option name="url" value="https://github.com/OMGSAMUELRBR/OptimizacionWindowsGUI.git" />
-      </UrlAndAccount>
-    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
-  </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 2
+  &quot;associatedIndex&quot;: 1
 }</component>
-  <component name="ProjectId" id="2Wyf651AI6FdKHCDHo3MCVUIRZ4" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="2XZhgCfFp3OWwQ6P2fXCmNujU6D" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/Documentos/Samuel/Lenguajes de programación/Java/OptimizacionWindows Java - copia",
-    "settings.editor.selected.configurable": "project.propCompiler"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Documentos/Samuel/Lenguajes de programacion/Java/OptimizacionWindows Java-copia/OptimizacionWindowsGUI&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.09259259&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration name="Principal" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="OptimizacionWindowsGUI" />
+      <module name="OptimizacionWindowsGUI" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="OptimizacionWindows Java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="OptimizacionWindows Java" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="eed625b4-3057-4417-ad8e-cfbfd186a96b" name="Changes" comment="" />
-      <created>1697709564290</created>
+      <changelist id="f9c93e06-2791-4dbe-b11e-36d673bd2137" name="Changes" comment="" />
+      <created>1698842617343</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1697709564290</updated>
+      <updated>1698842617343</updated>
     </task>
-    <task id="LOCAL-00010" summary="Changes">
+    <task id="LOCAL-00001" summary="Funcionando, desactivador de efectos visuales terminado">
       <option name="closed" value="true" />
-      <created>1698101313183</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
+      <created>1698930538294</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1698101313183</updated>
+      <updated>1698930538294</updated>
     </task>
-    <task id="LOCAL-00011" summary="Boton de desinstalar OneDrive funcionando en una clase diferente.">
+    <task id="LOCAL-00002" summary="Funcionando, desactivador de efectos visuales terminado">
       <option name="closed" value="true" />
-      <created>1698101781215</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
+      <created>1698936187179</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1698101781215</updated>
+      <updated>1698936187179</updated>
     </task>
-    <task id="LOCAL-00012" summary="Changes">
-      <option name="closed" value="true" />
-      <created>1698101792808</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1698101792808</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Changes">
-      <option name="closed" value="true" />
-      <created>1698149061449</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1698149061449</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Creado archivo java para ejecutar el Desfragmentador de unidades">
-      <option name="closed" value="true" />
-      <created>1698149761507</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1698149761507</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Changes">
-      <option name="closed" value="true" />
-      <created>1698149777104</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1698149777104</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Changes">
-      <option name="closed" value="true" />
-      <created>1698151573202</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1698151573202</updated>
-    </task>
-    <task id="LOCAL-00017" summary="Opcion de desactivar SysMain, no funciona del todo todavia">
-      <option name="closed" value="true" />
-      <created>1698153581311</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1698153581311</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Opcion de desactivar SysMain, no funciona del todo todavia">
-      <option name="closed" value="true" />
-      <created>1698153677748</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1698153677748</updated>
-    </task>
-    <task id="LOCAL-00019" summary="Changes">
-      <option name="closed" value="true" />
-      <created>1698153729573</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1698153729573</updated>
-    </task>
-    <task id="LOCAL-00020" summary="Opcion de desactivar SysMain no funiciona todavia correctamente">
-      <option name="closed" value="true" />
-      <created>1698154063417</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1698154063417</updated>
-    </task>
-    <task id="LOCAL-00021" summary="Cambios">
-      <option name="closed" value="true" />
-      <created>1698154122079</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1698154122079</updated>
-    </task>
-    <task id="LOCAL-00022" summary="Cambios">
-      <option name="closed" value="true" />
-      <created>1698154129608</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1698154129608</updated>
-    </task>
-    <task id="LOCAL-00023" summary="No del todo funcionando">
-      <option name="closed" value="true" />
-      <created>1698154554794</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1698154554794</updated>
-    </task>
-    <task id="LOCAL-00024" summary="Cambios">
-      <option name="closed" value="true" />
-      <created>1698154564870</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1698154564870</updated>
-    </task>
-    <task id="LOCAL-00025" summary="Mejoras, mas eficiente">
-      <option name="closed" value="true" />
-      <created>1698179970408</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1698179970408</updated>
-    </task>
-    <task id="LOCAL-00026" summary="Cambios">
-      <option name="closed" value="true" />
-      <created>1698180008545</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1698180008545</updated>
-    </task>
-    <task id="LOCAL-00027" summary="Traslado de la clase principal del boton de eliminar archivos temporales a otra clase.">
-      <option name="closed" value="true" />
-      <created>1698180264795</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1698180264795</updated>
-    </task>
-    <task id="LOCAL-00028" summary="Cambios">
-      <option name="closed" value="true" />
-      <created>1698180281936</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1698180281936</updated>
-    </task>
-    <task id="LOCAL-00029" summary="Cambios">
-      <option name="closed" value="true" />
-      <created>1698180364682</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1698180364682</updated>
-    </task>
-    <task id="LOCAL-00030" summary="Cambios">
-      <option name="closed" value="true" />
-      <created>1698266860826</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1698266860826</updated>
-    </task>
-    <task id="LOCAL-00031" summary="Funcionando, falta hacer una comprobacion para ver si esta en ejecuccion">
-      <option name="closed" value="true" />
-      <created>1698270216299</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1698270216299</updated>
-    </task>
-    <task id="LOCAL-00032" summary="Funcionando, falta hacer una comprobacion para ver si esta en ejecuccion">
-      <option name="closed" value="true" />
-      <created>1698270236873</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1698270236873</updated>
-    </task>
-    <task id="LOCAL-00033" summary="Hay que probar, falta hacer una comprobacion para ver si esta en ejecuccion">
-      <option name="closed" value="true" />
-      <created>1698270263039</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1698270263039</updated>
-    </task>
-    <task id="LOCAL-00034" summary="Cambios">
-      <option name="closed" value="true" />
-      <created>1698270276884</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1698270276884</updated>
-    </task>
-    <task id="LOCAL-00035" summary="Funcionando, falta hacer una comprobacion para ver si esta en ejecuccion">
-      <option name="closed" value="true" />
-      <created>1698270884683</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1698270884683</updated>
-    </task>
-    <task id="LOCAL-00036" summary="Cambios">
-      <option name="closed" value="true" />
-      <created>1698270901747</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1698270901747</updated>
-    </task>
-    <task id="LOCAL-00037" summary="Funcionando, falta hacer una comprobacion para ver si esta en ejecuccion">
-      <option name="closed" value="true" />
-      <created>1698271359976</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1698271359976</updated>
-    </task>
-    <task id="LOCAL-00038" summary="Cambios">
-      <option name="closed" value="true" />
-      <created>1698271438815</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1698271438815</updated>
-    </task>
-    <task id="LOCAL-00039" summary="Cambios">
-      <option name="closed" value="true" />
-      <created>1698271487819</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1698271487819</updated>
-    </task>
-    <task id="LOCAL-00040" summary="Funciona, verificador de estado de servicios">
-      <option name="closed" value="true" />
-      <created>1698313685046</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1698313685046</updated>
-    </task>
-    <task id="LOCAL-00041" summary="Codigo completo, verificador de estado funcionando">
-      <option name="closed" value="true" />
-      <created>1698313733391</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1698313733391</updated>
-    </task>
-    <task id="LOCAL-00042" summary="Codigo completo, verificador de estado funcionando">
-      <option name="closed" value="true" />
-      <created>1698313754436</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1698313754436</updated>
-    </task>
-    <task id="LOCAL-00043" summary="Cambios">
-      <option name="closed" value="true" />
-      <created>1698313769852</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1698313769852</updated>
-    </task>
-    <task id="LOCAL-00044" summary="Codigo completo, verificador de estado funcionando">
-      <option name="closed" value="true" />
-      <created>1698313853405</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1698313853405</updated>
-    </task>
-    <task id="LOCAL-00045" summary="Funcionando">
-      <option name="closed" value="true" />
-      <created>1698314278881</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1698314278881</updated>
-    </task>
-    <task id="LOCAL-00046" summary="Funcionando, verificador de estado funcionando">
-      <option name="closed" value="true" />
-      <created>1698314696145</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1698314696145</updated>
-    </task>
-    <task id="LOCAL-00047" summary="Funcionando, verificador de estado funcionando">
-      <option name="closed" value="true" />
-      <created>1698314716663</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1698314716663</updated>
-    </task>
-    <task id="LOCAL-00048" summary="Cambios">
-      <option name="closed" value="true" />
-      <created>1698314728723</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1698314728723</updated>
-    </task>
-    <task id="LOCAL-00049" summary="Codigo completo, verificador de estado funcionando">
-      <option name="closed" value="true" />
-      <created>1698315250407</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1698315250407</updated>
-    </task>
-    <task id="LOCAL-00050" summary="Cambios">
-      <option name="closed" value="true" />
-      <created>1698315262182</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1698315262183</updated>
-    </task>
-    <task id="LOCAL-00051" summary="Cambios">
-      <option name="closed" value="true" />
-      <created>1698756051419</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1698756051420</updated>
-    </task>
-    <task id="LOCAL-00052" summary="Cambios">
-      <option name="closed" value="true" />
-      <created>1698756109014</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1698756109014</updated>
-    </task>
-    <task id="LOCAL-00053" summary="Cambios">
-      <option name="closed" value="true" />
-      <created>1698756187497</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1698756187498</updated>
-    </task>
-    <task id="LOCAL-00054" summary="Cambios">
-      <option name="closed" value="true" />
-      <created>1698756284854</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1698756284854</updated>
-    </task>
-    <task id="LOCAL-00055" summary="Cambios">
-      <option name="closed" value="true" />
-      <created>1698756353121</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1698756353121</updated>
-    </task>
-    <task id="LOCAL-00056" summary="Añadido bat para desactivar efectos visuales">
-      <option name="closed" value="true" />
-      <created>1698756783254</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1698756783254</updated>
-    </task>
-    <task id="LOCAL-00057" summary="Prueba para comprobar si funciona correctamente">
-      <option name="closed" value="true" />
-      <created>1698763189907</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1698763189907</updated>
-    </task>
-    <task id="LOCAL-00058" summary="Falta codigo, no terminado">
-      <option name="closed" value="true" />
-      <created>1698763230940</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1698763230940</updated>
-    </task>
-    <option name="localTasksCounter" value="59" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Agregado GUI, sin terminar, falta desfragmentacion de unidades" />
-    <MESSAGE value="Falta barra de progreso en desfragmentacion de unidades" />
-    <MESSAGE value="Faltan por funcionar los 3 ultimos botones" />
-    <MESSAGE value="Faltan por funcionar los 4 ultimos botones" />
-    <MESSAGE value="Faltan por funcionar los 3 ultimos botones. Desactivador de Bluetooth funcionando casi." />
-    <MESSAGE value="Desactivador de Bluetooth, funcionado casi" />
-    <MESSAGE value="Boton de desinstalar OneDrive funcionando en una clase diferente." />
-    <MESSAGE value="Creado archivo java para ejecutar el Desfragmentador de unidades" />
-    <MESSAGE value="Opcion de desactivar SysMain, no funciona del todo todavia" />
-    <MESSAGE value="Boton de desactivar SysMain funcionado con otro archivo aparte" />
-    <MESSAGE value="Changes" />
-    <MESSAGE value="Opcion de desactivar SysMain no funiciona todavia correctamente" />
-    <MESSAGE value="No del todo funcionando" />
-    <MESSAGE value="Mejoras, mas eficiente" />
-    <MESSAGE value="Traslado de la clase principal del boton de eliminar archivos temporales a otra clase." />
-    <MESSAGE value="Hay que probar, falta hacer una comprobacion para ver si esta en ejecuccion" />
-    <MESSAGE value="Funcionando, falta hacer una comprobacion para ver si esta en ejecuccion" />
-    <MESSAGE value="Funciona, verificador de estado de servicios" />
-    <MESSAGE value="Funcionando" />
-    <MESSAGE value="Funcionando, verificador de estado funcionando" />
-    <MESSAGE value="Codigo completo, verificador de estado funcionando" />
-    <MESSAGE value="Cambios" />
-    <MESSAGE value="Añadido bat para desactivar efectos visuales" />
-    <MESSAGE value="Prueba para comprobar si funciona correctamente" />
-    <MESSAGE value="Falta codigo, no terminado" />
-    <option name="LAST_COMMIT_MESSAGE" value="Falta codigo, no terminado" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="javax.management.MalformedObjectNameException" package="javax.management" />
-          <option name="timeStamp" value="1" />
-        </breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
+    <MESSAGE value="Funcionando, desactivador de efectos visuales terminado" />
+    <option name="LAST_COMMIT_MESSAGE" value="Funcionando, desactivador de efectos visuales terminado" />
   </component>
 </project>
