@@ -7,25 +7,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library" exported="">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/jna/jna-platform-jpms.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/jna/jna-jpms.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="library" exported="" name="jna-jpms" level="project" />
-    <orderEntry type="library" exported="" name="jna-platform-jpms" level="project" />
+    <orderEntry type="library" name="jna-jpms" level="project" />
+    <orderEntry type="library" name="jna-platform-jpms" level="project" />
   </component>
 </module>

@@ -2,22 +2,23 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="OptimizacionWindows Java:jar" />
+      <artifact name="OptimizacionWindowsGUI:jar" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9c93e06-2791-4dbe-b11e-36d673bd2137" name="Changes" comment="Funcionando, desactivador de efectos visuales terminado">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="f9c93e06-2791-4dbe-b11e-36d673bd2137" name="Changes" comment="Cambios, nada importante">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/OptimizacionWindowsGUI_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/OptimizacionWindows_Java_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/jna_jpms.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/jna_jpms.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/jna_platform_jpms.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/jna_platform_jpms.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26_10_2023_0_02_[Changes]/shelved.patch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26_10_2023_0_02__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JRegistry-1.8.3_src-bin_x86__x86-64/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/OptimizacionWindowsGUI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/OptimizacionWindowsGUI.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,17 +41,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Documentos/Samuel/Lenguajes de programacion/Java/OptimizacionWindows Java-copia/OptimizacionWindowsGUI&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.09259259&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/Documentos/Samuel/Lenguajes de programacion/Java/OptimizacionWindows Java-copia/OptimizacionWindowsGUI/lib/jna-platform-jpms.jar",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.16188714",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Principal" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="OptimizacionWindowsGUI" />
@@ -98,11 +100,36 @@
       <option name="project" value="LOCAL" />
       <updated>1698936187179</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Cambios, nada importante">
+      <option name="closed" value="true" />
+      <created>1698961480306</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1698961480306</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Cambios, nada importante">
+      <option name="closed" value="true" />
+      <created>1698961502506</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1698961502506</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Cambios, nada importante">
+      <option name="closed" value="true" />
+      <created>1698961563259</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1698961563259</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Funcionando, desactivador de efectos visuales terminado" />
-    <option name="LAST_COMMIT_MESSAGE" value="Funcionando, desactivador de efectos visuales terminado" />
+    <MESSAGE value="Cambios, nada importante" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cambios, nada importante" />
   </component>
 </project>
