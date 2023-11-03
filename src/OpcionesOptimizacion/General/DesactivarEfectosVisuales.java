@@ -25,7 +25,7 @@ public class DesactivarEfectosVisuales {
                     int valorVisualFXSetting = Advapi32Util.registryGetIntValue(WinReg.HKEY_CURRENT_USER, "Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\VisualEffects", "VisualFXSetting");
 
                     if (valorVisualFXSetting == 3 ) {
-                        int confirm = JOptionPane.showConfirmDialog(null, "Los efectos visuales ya estan activados, ¿Desea desactivarlos", "Confirmar", JOptionPane.YES_NO_OPTION);
+                        int confirm = JOptionPane.showConfirmDialog(null, "Los efectos visuales ya estan activados, ¿Desea desactivarlos?", "Confirmar", JOptionPane.YES_NO_OPTION);
 
                         if (confirm == JOptionPane.YES_OPTION) {
                             Advapi32Util.registrySetIntValue(WinReg.HKEY_CURRENT_USER, "Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\VisualEffects", "VisualFXSetting", VALOR_DESACTIVADO);
